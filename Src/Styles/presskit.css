@@ -1,0 +1,33 @@
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-color: #DB4682;
+
+    .btn_link{
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", system-ui;
+        font-weight: 500;
+        font-style: normal;}
+    .btn_link:hover{
+
+        background-color: #b33f6da6;
+        border-radius: 15px;
+        padding: 12px;
+        color: white;}
+}
+
+.container{
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
