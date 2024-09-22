@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+/* corpo do site */
+body {
+  margin: 20px 35px 20px 35px;
+  background: #e9e9e9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  width: 90%;
+}
+
+/* título do jogo */
+.titulo h1 {
+  color: #252525;
+  font-size: 2em;
+  font-weight: 480;
+  margin-bottom: 5px;
+  /* background-color: #a80101; */
+}
+
+
+/* formatação navbar */
+.nav {
+  width: initial;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 450;
+  font-family: inherit;
+
+  }
+
+.nav a {
+  align-items: center;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+
+.contato {
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* formatação das colunas*/
+.container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1.6em auto;
+}
+
+.container > .coluna1,
+.container > .coluna2,
+.container > .coluna3,
+.container > .coluna4 {
+  padding: 5px;
+}
+
+
+.container .titulo {
+  grid-column: 1/5;
+}
+
+.container > .coluna1 {
+  grid-column: span 1;
+  margin-bottom: -350px;
+}
+
+.container > .coluna2 {
+
+  grid-column: span 1;
+  width: 270px;
+  height: 500px;
+}
+
+.container > .coluna3 {
+  grid-column: span 2;
+  width: auto;
+  height: 500px;
+  margin-left: -60px;
+
+}
+
+.container > .coluna4 {
+  grid-column: 2/5;
+
+}
+
+.coluna3 .headers {
+  margin-bottom: 15px;
+
+}
+
+/*formatação área de texto */
+.textarea {
+  margin-bottom: 12px;
+  font-size: .9em;
+  text-align: left;
+}
+
+
+hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+/*formatação de videos */
+.coluna4 {
+  text-align: center;
+
+}
+.coluna4 h2 {
+  text-align: left;
+
+}
+
+.videos {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  width: inherit;
+  gap: 35px;
+  margin-top: 25px;
+
+}
+
+
+iframe {
+  border: none;
+  width: 408px;
+  height: 230px;
+}
+  
+
+.coluna3 .textarea {
+  max-height: 420px;
+}
+
+/* formatação imagens do jogo */
+#tituloimagens {
+  margin-bottom: 16px;
+}
+.imagens {
+  margin: 0;
+
+}
+.imagens img {
+  margin: 5px;
+  width: 280px;
+  height: 280px;
+  opacity: .7;
+  padding: 15px;
+}
+.imagens img:hover {
+  opacity: 1;
+  
+}
+
+
+/* formato para os subtítulos*/
+.headers {
+  color: #5a5959;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+.subheaders {
+  color: #252525;
+  font-size: 0.9em;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+/* formato para os links */
+a {
+  color: #a80101;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+a:hover {
+  color: #40044d;
+}
+a:visited {
+  color: #2404d8;
+}
+
+/* textos curtos */
+.bloco {
+  font-size: 0.9em;
+}
+
+/* formatação artigos */
+cite {
+  font-size: 0.8em;
+  max-width: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  text-align: left;
+  margin-bottom: 12px;
+
+}
+
+/*formatação botão baixar */
+
+.botaobaixar {
+
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+#baixar {
+  border: none;
+  font-family: inherit;
+  background-color: #525252;
+  color: #ffffff;
+  height: 30px;
+  width: 180px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+
+}
+
+#baixar:hover{
+  background-color: #a80101;
+  box-shadow: 0 10px 12px 0 #8002023d;
+}
+
+
+/* formatação da área de serviços para jogar */
+.service-games {
+  margin-top: 2px;
+  text-align: center;
+
+}
+.service-games div {
+  margin-top: 10px;
+}
+
+
+/* formatação de projetos anteriores */
+aside {
+  text-align: center;
+
+}
+aside h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+aside li {
+  margin-bottom: 3px;
+  list-style-type: none;
+}
+
+
+
+#equipe {
+  margin-bottom: 16px;
+}
+
+
+/* formato do pé de página */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  height: inherit;
+  width: inherit;
+  grid-column: 1/4;
+  background-color: #b9b9b9;
+  border-radius: 15px 15px 2px 2px;
+}
+
+
+
