@@ -50,16 +50,16 @@ body{
         display: flex;
         gap: 2px;
         flex-wrap: wrap;
-        width: 210px;
+        width: 160px;
     }
     .redes > .image-icon{
         padding: 0.5px;
-        border-radius: 20px;
-        background-color: #DB4682;
+        border-radius: 15px;
+        background-color: #f0f0f0;
     }
     .redes > .image-icon:hover{
         padding: 0.5px;
-        border-radius: 20px;
+        border-radius: 15px;
         background-color: #b33f6da6;
     }
     .coluna2{
