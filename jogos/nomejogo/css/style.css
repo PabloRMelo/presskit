@@ -1,0 +1,149 @@
+body{
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  background-color: #DB4682;
+
+  .btn_link{
+      color: white;
+      text-decoration: none;
+      font-family: "Roboto", system-ui;
+      font-weight: 500;
+      font-style: normal;}
+  .btn_link:hover{
+
+      background-color: #b33f6da6;
+      border-radius: 15px;
+      padding: 12px;
+      color: white;}
+}
+
+.container{
+  padding-top: 7%;
+  padding-bottom: 2%;
+  .coluna1{
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+  }
+  .coluna1_subheader{
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+  }
+  .redes{
+      display: flex;
+      gap: 2px;
+      flex-wrap: wrap;
+      width: 210px;
+  }
+  .redes > .image-icon{
+      padding: 0.5px;
+      border-radius: 20px;
+      background-color: #DB4682;
+  }
+  .redes > .image-icon:hover{
+      padding: 0.5px;
+      border-radius: 20px;
+      background-color: #b33f6da6;
+  }
+  .coluna2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 650px;
+      .lista_projetos{
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+      }
+      .link_projetos{
+          width: 76px;
+          padding-left: 14px;
+          border-radius: 6px;
+          background-color: #DB4682;
+          a {
+              color: white;
+              text-decoration: none;
+              font-family: "Roboto", system-ui;
+          }
+      }
+      .link_projetos:hover{
+          width: 76px;
+          padding-left: 14px;
+          border-radius: 6px;
+          background-color: #b33f6da6;
+      }
+  }
+  .service-games{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+  .service-games > div > a{
+      padding: 8px;
+      display: block;
+      width: 8rem;
+      border-radius: 6px;
+      background-color: #f0f0f0;
+  }
+  .service-games > div > a:hover{
+      padding: 8px;
+      width: 8rem;
+      border-radius: 6px;
+      background-color: #b33f6da6;
+  }
+  .coluna4{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .coluna4 > .videos{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 50%;
+  }
+  .coluna4 > .imagens{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 50%;
+  }
+  .coluna4 > .imagens > a{
+      width: 50%;
+  }
+  .coluna4 > .imagens > a > img{
+      width: 98%;
+  }
+  .col1_col2{
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+  }
+  .botaobaixar > a > button{
+      padding: 6px;
+      color: white;
+      border-radius: 20px;
+      background-color: #DB4682;
+  }
+  .botaobaixar > a > button:hover{
+      background-color: #b33f6da6;
+  }
+}
