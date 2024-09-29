@@ -39,6 +39,7 @@ h1{font-size: 2em;
     left: 0px;
     width: 100%;
     padding: 30px;
+    padding-left: 0%;
     display: flex;
     gap: 25px;
     justify-content: center;
@@ -224,4 +225,3 @@ h1{font-size: 2em;
         color: white;
     }
 }
-
