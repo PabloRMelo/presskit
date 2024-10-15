@@ -176,7 +176,8 @@ h1{font-size: 2em;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 75%;
+        width: 70%;
+
     }
     .coluna4_videos > .videos{
         display: flex;
@@ -186,10 +187,11 @@ h1{font-size: 2em;
         width: 100%;
         justify-content: center;
     }
-    .videos > iframe {
+
+    iframe {
         border: none;
-        margin: 10px 5px;
-        width: 520px;
+        margin: 10px 15px;
+        width: 500px;
         height: 350px;
     }
     
@@ -198,11 +200,18 @@ h1{font-size: 2em;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
+        width: 70%;
+
+
     }
-    .coluna4_imagens > img{
-        max-width: fit-content;
-    }
+
+  .coluna4_imagens > a > img {
+    width: 320px;
+    height: 290px;
+    padding: 5px 8px;
+
+  }
+
     .col1_col2{
         display: flex;
         flex-direction: row;
@@ -231,6 +240,9 @@ h1{font-size: 2em;
         color: white;
     }
 }
+
+
+
 
 @media only screen and (max-width: 500px) {
     .nav{
