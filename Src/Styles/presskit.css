@@ -56,10 +56,8 @@ h1 {
     font-style: normal;
   }
   .btn_link:hover {
-    background-color: #b33f6da6;
-    border-radius: 15px;
-    padding: 12px;
-    color: white;
+    color: gold;
+    transition: 1s;
   }
 }
 
@@ -88,6 +86,52 @@ h1 {
     
   }
 
+  .div-poster{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .poster-redes{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .redes-title{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .div-redes{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .cards-redes{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .img-redes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
   .lista_projetos {
     display: flex;
     flex-direction: row;
@@ -102,9 +146,15 @@ h1 {
     height: 200px;}
   }
 
-  .imagemthumb {width: 100%;}
-  .fwrap {max-width: 500px;
-position: relative;}
+  .imagemthumb {
+    width: 100%;
+  }
+
+  .fwrap {
+    max-width: 500px;
+    position: relative;
+  }
+
 .fcap {
     position: absolute; top: 0; left: 0;
     width: 100%; height: 98%;
@@ -143,6 +193,8 @@ position: relative;}
   .redes {
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 150px;
     z-index: 1;
@@ -160,8 +212,8 @@ position: relative;}
   }
   .redes > .image-icon {
     position: relative;
-    height: fit-content;
-    margin: 2px;
+    height: 50%;
+    margin: 4px;
   }
 
   .redes > .image-icon:hover {
@@ -171,17 +223,16 @@ position: relative;}
   }
   .service-games {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     gap: 9px;
     text-align: center;
-    margin-left: 20px;
   }
   .service-games > div > a {
     padding: 7px;
-    display: block;
     width: 5rem;
     border-radius: 6px;
     background-color: #d3d3d3;
+    height: 100%;
   }
   .service-games > div > a:hover {
     padding: 7px;
@@ -241,23 +292,27 @@ position: relative;}
   }
 
 
-
   .col1_col2 {
     display: flex;
     flex-direction: row;
     gap: 50px;
   }
   .botaobaixar > a > button {
+    height: 45px;
+    width: 230px;
     padding: 6px;
     color: white;
-    border-radius: 20px;
+    border: solid 2px #db4682;
+    border-radius: 25px;
     background-color: #db4682;
     margin-top: 25px;
 
   }
   .botaobaixar > a > button:hover {
-    background-color: #b33f6da6;
-  }
+    background-color: #b13164;
+    border: solid 2px #b13164;
+    transition: 1s;
+    cursor: pointer;
 
   cite {
     font-size: 0.85em;
@@ -430,4 +485,5 @@ position: relative;}
       color: white;
     }
   }
+}
 }
