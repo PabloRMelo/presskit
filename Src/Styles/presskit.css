@@ -312,7 +312,7 @@ h1 {
     background-color: #b13164;
     border: solid 2px #b13164;
     transition: 1s;
-    cursor: pointer;
+    cursor: pointer; }
 
   cite {
     font-size: 0.85em;
