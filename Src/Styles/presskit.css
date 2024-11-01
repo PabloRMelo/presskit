@@ -317,6 +317,10 @@ h1 {
   cite {
     font-size: 0.85em;
     margin-left: 25px;
+
+    span{
+      font-weight: 500;
+    }
   }
 
   .footerpagina {
