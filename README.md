@@ -1,2 +1,2 @@
 # presskit
-Press kit para jogos. Criado para o núcleo de tecnologia do MTST
+Press kit para jogos. Criado para e pelo núcleo de tecnologia do MTST
