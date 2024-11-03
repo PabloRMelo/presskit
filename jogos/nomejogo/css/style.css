@@ -278,6 +278,10 @@ h1 {
     }
   }
 
+  .artigo-equipe {
+    align-self: start;
+  }
+
   .footerpagina {
     position: relative;
     width: 1280px;
